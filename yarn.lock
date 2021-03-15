@@ -1394,7 +1394,7 @@
     "core-js-pure" "^3.0.0"
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.18", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.5.5", "@babel/runtime@^7.9.2":
   "integrity" "sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw=="
   "resolved" "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz"
   "version" "7.13.10"
@@ -1574,6 +1574,39 @@
     "js-yaml" "^3.13.1"
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
+
+"@fortawesome/fontawesome-common-types@^0.2.34":
+  "integrity" "sha512-XcIn3iYbTEzGIxD0/dY5+4f019jIcEIWBiHc3KrmK/ROahwxmZ/s+tdj97p/5K0klz4zZUiMfUlYP0ajhSJjmA=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.34.tgz"
+  "version" "0.2.34"
+
+"@fortawesome/fontawesome-svg-core@^1.2.32", "@fortawesome/fontawesome-svg-core@^1.2.34":
+  "integrity" "sha512-0KNN0nc5eIzaJxlv43QcDmTkDY1CqeN6J7OCGSs+fwGPdtv0yOQqRjieopBCmw+yd7uD3N2HeNL3Zm5isDleLg=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.34.tgz"
+  "version" "1.2.34"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-brands-svg-icons@^5.15.2":
+  "integrity" "sha512-YPlVjE1cEO+OJ9I9ay3TQ3I88+XkxMTYwnnddqAboxLhPNGncsHV0DjWOVLCyuAY66yPfyndWwVn4v7vuqsO1g=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.15.2.tgz"
+  "version" "5.15.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-solid-svg-icons@^5.15.2":
+  "integrity" "sha512-ZfCU+QjaFsdNZmOGmfqEWhzI3JOe37x5dF4kz9GeXvKn/sTxhqMtZ7mh3lBf76SvcYY5/GKFuyG7p1r4iWMQqw=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.2.tgz"
+  "version" "5.15.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/react-fontawesome@^0.1.14":
+  "integrity" "sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.14.tgz"
+  "version" "0.1.14"
+  dependencies:
+    "prop-types" "^15.7.2"
 
 "@fullhuman/postcss-purgecss@^3.1.3":
   "integrity" "sha512-kwOXw8fZ0Lt1QmeOOrd+o4Ibvp4UTEBFQbzvWldjlKv5n+G9sXfIPn1hh63IQIL8K8vbvv1oYMJiIUbuy9bGaA=="
@@ -2022,6 +2055,15 @@
     "pretty-hrtime" "^1.0.3"
     "reduce-css-calc" "^2.1.8"
     "resolve" "^1.19.0"
+
+"@tanem/svg-injector@^9.0.1":
+  "integrity" "sha512-iRNGHmtL0k/gp0sAPTPYCadMnewZQpXIuFL+fGAAKpF1MkmROMCu7ZFR4uV9SqWYT/jelCcmSAFGc5OPqJc07A=="
+  "resolved" "https://registry.npmjs.org/@tanem/svg-injector/-/svg-injector-9.0.3.tgz"
+  "version" "9.0.3"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "content-type" "^1.0.4"
+    "tslib" "^2.1.0"
 
 "@testing-library/dom@^7.28.1", "@testing-library/dom@>=7.21.4":
   "integrity" "sha512-v4GzWtltaiDE0yRikLlcLAfEiiK8+ptu6OuuIebm9GdC2XlZTNDPGEfM2UkEtnH7hr9TRq2sivT5EA9P1Oy7bw=="
@@ -4063,7 +4105,7 @@
   dependencies:
     "safe-buffer" "5.1.2"
 
-"content-type@~1.0.4":
+"content-type@^1.0.4", "content-type@~1.0.4":
   "integrity" "sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA=="
   "resolved" "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz"
   "version" "1.0.4"
@@ -10243,7 +10285,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^17.0.1":
+"react-dom@*", "react-dom@^15.5.4 || ^16.0.0 || ^17.0.0", "react-dom@^17.0.1":
   "integrity" "sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug=="
   "resolved" "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz"
   "version" "17.0.1"
@@ -10338,7 +10380,16 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^17.0.1", "react@>= 16", "react@17.0.1":
+"react-svg@^12.1.0":
+  "integrity" "sha512-k93yg7ehkIb882o193VnMsWsTGFd2LkAESU7YnRJfu1DivFczjMBuQj3lcdBzsxNKDSk4PHT/6v5KASkX+H1SA=="
+  "resolved" "https://registry.npmjs.org/react-svg/-/react-svg-12.1.0.tgz"
+  "version" "12.1.0"
+  dependencies:
+    "@babel/runtime" "^7.12.18"
+    "@tanem/svg-injector" "^9.0.1"
+    "prop-types" "^15.7.2"
+
+"react@*", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^17.0.1", "react@>= 16", "react@>=16.x", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
@@ -12093,6 +12144,11 @@
   "integrity" "sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA=="
   "resolved" "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz"
   "version" "1.11.1"
+
+"tslib@^2.1.0":
+  "integrity" "sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A=="
+  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
+  "version" "2.1.0"
 
 "tsutils@^3.17.1":
   "integrity" "sha512-kzeQ5B8H3w60nFY2g8cJIuH7JDpsALXySGtwGJ0p2LSjLgay3NdIpqq5SoOBe46bKDW2iq25irHCr8wjomUS2g=="

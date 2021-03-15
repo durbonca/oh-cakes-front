@@ -1,14 +1,21 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { ReactSVG } from 'react-svg'
+
+
 export function Header(){
 
     return(
-        <div className="flex justify-between | p-10">
-            <div>Logo Here //TODO: send me SVG LOGO</div>
+        <div className="flex justify-between items-center">
+            <ReactSVG src="logo.svg" className="h-40 w-40" />
 
-            <form className="flex">
+            <form className="flex h-10 items-center px-5">
                 <input type="text" 
-                className="border-gray-300 border-2 rounded-xl outline-none | p-2" 
+                className="border-primary border-2 rounded-xl outline-none | p-2" 
                 placeholder="buscar"/>
-                <button className="p-2">🔍</button>
+                <button className="p-2">
+                    <FontAwesomeIcon icon={faSearch} className="text-primary"/>
+                </button>
             </form>
         </div>
     )
