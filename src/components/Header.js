@@ -6,6 +6,7 @@ export function Header(){
 
     function toggleMenu(){
        document.getElementById('mobile-menu').classList.toggle('hidden')
+       document.getElementById('mobile-menu').classList.toggle('flex')
     }
        
     return(
@@ -31,7 +32,7 @@ export function Header(){
                 </form>
             </div>
 
-            <ul id="mobile-menu" className="h-auto w-screen bg-secondary flex flex-col text-white text-4xl">
+            <ul id="mobile-menu" className="h-auto w-screen bg-secondary hidden flex-col text-white text-4xl">
                 <li className="">
                     <form className="flex items-center w-full">
                         <input type="text" 
