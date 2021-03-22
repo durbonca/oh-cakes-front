@@ -1,12 +1,11 @@
 import {Header} from "./components/Header"
+import {Body} from "./components/Body"
 
 function App() {
   return (
     <>
     <Header/>
-    <div className="bg-primary flex h-screen items-center justify-center">
-        <h1 className="font-extrabold text-white text-secondary">OH CAKES</h1>
-    </div>
+    <Body/>
     </>
   );
 }
